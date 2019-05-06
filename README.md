@@ -21,18 +21,18 @@
 [download-url]: https://npmjs.org/package/ip2region
 [license-image]: https://img.shields.io/npm/l/ip2region.svg
 
-# node-ip2region
+# ip2region
 
 IP 地址到区域运营商 IP to region on Node.js 
 
 ## 安装使用使用
 
 ```bash
-$ npm install ip2region --save
+$ npm install @hitv/ip2region --save
 ```
 
 ```javascript
-const IP2Region = require('ip2region');
+const IP2Region = require('@hitv/ip2region');
 const query = new IP2Region();
 const res = query.search('120.24.78.68');
 console.log(res);

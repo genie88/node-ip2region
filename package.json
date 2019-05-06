@@ -1,6 +1,6 @@
 {
-  "name": "ip2region",
-  "version": "1.6.0",
+  "name": "@hitv/ip2region",
+  "version": "1.7.0",
   "description": "ip to geo database, IP 地址到区域运营商",
   "keywords": [
     "ip",
@@ -15,21 +15,20 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourtion/node-ip2region.git"
+    "url": "git+https://github.com/genie88/node-ip2region.git"
   },
   "bugs": {
-    "url": "https://github.com/yourtion/node-ip2region/issues"
+    "url": "https://github.com/genie88/node-ip2region/issues"
   },
-  "homepage": "https://github.com/yourtion/node-ip2region#readme",
+  "homepage": "https://github.com/genie88/node-ip2region#readme",
   "scripts": {
     "lint": "eslint lib test --fix",
     "benmark": "node test/benmark.js",
     "test": "jest --coverage",
     "test:debug": "export NODE_ENV='dev' && export DEBUG=ip2region:* && npm test",
-    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "prepublishOnly": "npm run lint && npm run coveralls"
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
-  "author": "Yourtion <yourtion@gmail.com>",
+  "author": "genie88 <genie88@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "benchmark": "^2.1.4",
